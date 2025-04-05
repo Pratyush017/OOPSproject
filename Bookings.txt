@@ -1,0 +1,2 @@
+CustomerUser booked: Three Idiots | Seat: 56 | Timing: 14:00 | Popcorn: No | Total Price: 267
+CustomerUser booked: Tarzan | Seat: 29 | Timing: 12:30 | Popcorn: Yes | Total Price: 330
