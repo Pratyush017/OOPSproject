@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-// We defined User class for admin and Customer....
+// We defined User class for admin and Customer
 class User {
 protected:
     int id;
