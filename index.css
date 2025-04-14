@@ -1,4 +1,4 @@
-.h1 {
+h1 {
     color: #333;
 }
 
@@ -13,11 +13,25 @@
     font-family: Georgia;
     text-align: center;
     color: #134f53;
+    opacity: 0.8;
     background-color: #11dbe8;
 }
 
 .bg {
-    background-color: #000000;
+    opacity: 1;
+}
+
+#gif-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGlwcWtwOXB1NTMwbmg0eHFsM2tobm5paDcxc2MzejFwcGVqNjg5biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VUo8NNocdrUdHy8s7z/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
 
 .section {
@@ -25,6 +39,7 @@
     padding: 20px;
     background: #fff;
     border-radius: 8px;
+    opacity: 0.7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,7 +57,7 @@
     margin-top: 20px;
 }
 
-.ul {
+ul {
     padding-left: 20px;
 }
 
@@ -97,13 +112,40 @@
     margin-bottom: 2em;
     padding: 1em;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 15px #000000;
     font-weight: bold;
     font-family: Georgia;
     text-align: center;
+    opacity: 0.8;
     background-color: #11dbe8;
+}
+
+.shadow {
+    box-shadow: 0 5px 15px #000000;
 }
 
 .section {
     text-align: left;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input,
+select {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
 }
